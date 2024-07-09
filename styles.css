@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+}
+
+.jumbotron {
+    background-color: #8b0000; /* Dark red background */
+    color: #fff; /* White text */
+    margin-bottom: 0;
+    padding: 2rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff; /* White text */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* White text for navbar links */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White background for navbar toggler */
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-light {
+    background-color: #000 !important; /* Black background for sections with bg-light class */
+    color: #fff; /* White text */
+}
+
+.card {
+    background-color: #333; /* Dark gray background for cards */
+    color: #fff; /* White text */
+    border: 1px solid #8b0000; /* Dark red border */
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* About Us Section */
+#about {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 5rem 0;
+}
+
+.about-content {
+    padding-right: 2rem; /* Padding on the right for content */
+}
+
+.about-content h2 {
+    font-size: 2.5rem; /* Larger font size for section heading */
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.about-content p {
+    font-size: 1.1rem; /* Font size for paragraph */
+    line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding-right: 0; /* Remove padding on smaller screens */
+    }
+}
+
+
+footer {
+    background-color: #000; /* Black background for footer */
+    color: #fff; /* White text */
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#mission, #about, #contact {
+    background-color: #222; /* Dark background for specific sections */
+    color: #fff; /* White text */
+    padding: 5rem 0;
+}
+
+b {
+    font-weight: bold;
+    color: #ff4500; /* Reddish-orange text */
+}
+
+#contact .form-control {
+    margin-bottom: 1rem;
+    background-color: #333; /* Dark gray background for form inputs */
+    color: #fff; /* White text */
+    border: 1px solid #8b0000; /* Dark red border */
+}
+
+.btn-primary {
+    background-color: #8b0000; /* Dark red background for primary buttons */
+    border-color: #8b0000; /* Dark red border for primary buttons */
+}
+
+.btn-primary:hover {
+    background-color: #ff4500; /* Reddish-orange on hover */
+    border-color: #ff4500; /* Reddish-orange border on hover */
+}
+
+.btn-secondary {
+    background-color: #000; /* Black background for secondary buttons */
+    border-color: #fff; /* White border for secondary buttons */
+    color: #fff; /* White text for secondary buttons */
+}
+
+.btn-secondary:hover {
+    background-color: #333; /* Dark gray on hover */
+    border-color: #fff; /* White border on hover */
+    color: #fff; /* White text on hover */
+}
